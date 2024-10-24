@@ -10,10 +10,16 @@ h2 {
 #websiteContainer {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
 }
 
 .arrangementBox {
     display: flex;
+}
+
+#portfolioContainer {
+    width: 100%;
 }
 
 #titleSection {
@@ -23,29 +29,25 @@ h2 {
     padding-left: 20%;
     padding-right: 20%;
 }
-#websiteContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 100%;
-}
+
 #ourTeamContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    width: 100%;
 }
 #profileCardContainer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 }
 .teamMemberCard {
     display: flex;
     flex-direction: column;
     border: 1px solid black;
-    margin: 10px;
 }
 .memberCardText {
     display: flex;
