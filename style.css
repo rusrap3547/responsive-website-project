@@ -20,6 +20,8 @@ h2 {
 
 #portfolioContainer {
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 #titleSection {
@@ -43,6 +45,11 @@ h2 {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+}
+.portfolioBoxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center, space-around;
 }
 .teamMemberCard {
     display: flex;
