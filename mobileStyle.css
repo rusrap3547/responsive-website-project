@@ -7,6 +7,32 @@
     }
     .portfolioBoxes {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    .profileCardBox {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #portfolioContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+    .portfolioBoxes {
+        flex-direction: column;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
     }
 
     .profileCardBox {
