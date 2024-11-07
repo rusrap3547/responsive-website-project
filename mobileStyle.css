@@ -1,3 +1,4 @@
+/* Tablet and other small monitors */
 @media screen and (max-width: 1250px) {
     #portfolioContainer {
         display: flex;
@@ -19,6 +20,7 @@
     }
 }
 
+/* Cell phones and other Mobile */
 @media screen and (max-width: 375px) {
     #portfolioContainer {
         display: flex;

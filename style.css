@@ -24,6 +24,23 @@ h2 {
     justify-content: center;
 }
 
+#topHeaderBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: slategrey;
+    color: white;
+    padding: 10px;
+}
+
+#headerNavBar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
 #titleSection {
     display: flex;
     flex-direction: column;
@@ -71,4 +88,23 @@ h2 {
 .contactText {
     display: flex;
     flex-direction: column;
+}
+
+.social-bar {
+    display: flex;
+    justify-content: flex-start;
+    width: 20px;
+    height: auto;
+}
+.social-bar-icon {
+    display: flex;
+    justify-content: flex-start;
+    width: 20px;
+    height: auto;
+}
+.footing-social-icon {
+    display: flex;
+    justify-content: flex-start;
+    width: 20px;
+    height: auto;
 }
